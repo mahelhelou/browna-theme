@@ -114,7 +114,7 @@ h2.display-4 {
 }
 
 /* Media Queries */
-@media (max-width: 576px) {
+@media screen and (max-width: 767px) {
   .carousel-indicators {
     display: none;
   }
@@ -134,13 +134,18 @@ h2.display-4 {
   }
 }
 
-@media (min-width: 578px) {
+@media screen and (min-width: 768px) {
   .carousel-caption {
     top: 45%;
   }
 
   .carousel-caption h1 {
     font-size: 4.4rem;
+  }
+
+  section.py-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
   }
 
   .connect .fab {
